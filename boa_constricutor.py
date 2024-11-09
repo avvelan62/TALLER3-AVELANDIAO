@@ -30,7 +30,7 @@ class Boa_Constrictor(Animal_Exotico):
         Args:
             cantidad_raton (int): Cantidad ratones comidos
         """
-        if  cantidad_raton >= 10:
+        if  cantidad_raton >= 20:
             raise ValueError("¡Demasiados Ratones!")
         
         self._ratones_comidos += cantidad_raton
